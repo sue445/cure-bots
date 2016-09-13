@@ -8,3 +8,11 @@ Precure twitter bot
 cp .env.example .env
 vi .env
 ```
+
+## Setup Heroku
+```sh
+heroku config:set TWITTER_CONSUMER_KEY=xxxxxxxxxxxxxxxxxx
+heroku config:set TWITTER_CONSUMER_SECRET=xxxxxxxxxxxxxxxxxx
+heroku config:set TWITTER_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxx
+heroku config:set TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxx
+```
