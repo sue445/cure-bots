@@ -45,7 +45,7 @@ deploy:
             keep-repository: true
             key-name: WERCKER_HEROKU_DEPLOY
             app-name: $HEROKU_APP_NAME
-            key: $KEROKU_KEY
+            key: $HEROKU_KEY
 
     after-steps:
         - wantedly/pretty-slack-notify:
