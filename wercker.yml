@@ -21,6 +21,11 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
     steps:
+        - script:
+            name: setup variable
+            code: |
+              export RUBYOPT=-EUTF-8
+
         - bundle-install:
             jobs: 4
 
