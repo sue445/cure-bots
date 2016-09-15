@@ -18,3 +18,10 @@ heroku config:set TWITTER_CONSUMER_SECRET=xxxxxxxxxxxxxxxxxx
 heroku config:set TWITTER_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxx
 heroku config:set TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxx
 ```
+
+## Heroku deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
+
+![Heroku Scheduler](img/heroku_scheduler.png)
