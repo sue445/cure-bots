@@ -8,7 +8,7 @@ describe BirthdayBot do
       end
 
       it "should post tweet" do
-        expect(bot).to receive(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！")
+        expect(bot).to receive(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！ https://github.com/sue445/cure-bots")
         bot.perform
       end
     end
