@@ -9,7 +9,7 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     buftok (0.2.0)
-    concurrent-ruby (1.0.3)
+    concurrent-ruby (1.0.4)
     diff-lcs (1.2.5)
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
