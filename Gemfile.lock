@@ -48,7 +48,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    rubicure (0.4.12)
+    rubicure (0.4.13)
       activesupport (>= 4.0.0)
       hashie (>= 2.0.5)
       sengiri_yaml (>= 0.0.2)
