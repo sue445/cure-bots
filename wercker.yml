@@ -44,6 +44,22 @@ build-rspec:
             name: rspec
             code: bundle exec rspec
 
+build-rubocop:
+    <<: *default
+
+    steps:
+        - script:
+            name: setup variable
+            code: |
+              export RUBYOPT=-EUTF-8
+
+        - bundle-install:
+            jobs: 4
+
+        - script:
+            name: rubocop
+            code: bundle exec rubocop
+
 deploy:
     steps:
         - heroku-deploy:
