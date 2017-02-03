@@ -26,4 +26,5 @@ heroku config:set TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxx
 
 register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
 
+
 ![Heroku Scheduler](img/heroku_scheduler.png)
