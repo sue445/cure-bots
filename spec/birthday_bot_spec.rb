@@ -8,8 +8,9 @@ describe BirthdayBot do
       end
 
       it "posts tweet" do
-        expect(bot).to receive(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！ https://github.com/sue445/cure-bots")
+        allow(bot).to receive(:post_tweet)
         bot.perform
+        expect(bot).to have_received(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！ https://github.com/sue445/cure-bots")
       end
     end
 
@@ -19,8 +20,9 @@ describe BirthdayBot do
       end
 
       it "does not post tweet" do
-        expect(bot).not_to receive(:post_tweet)
+        allow(bot).to receive(:post_tweet)
         bot.perform
+        expect(bot).not_to have_received(:post_tweet)
       end
     end
   end
