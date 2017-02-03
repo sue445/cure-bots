@@ -1,11 +1,12 @@
 # cure-bots
 Precure twitter bot
 
-![example](img/example.png)
-
 [![Dependency Status](https://gemnasium.com/badges/github.com/sue445/cure-bots.svg)](https://gemnasium.com/github.com/sue445/cure-bots)
 
 [![wercker status](https://app.wercker.com/status/9ba6925ec9ca9f47898b0fcc4a6bafe6/m/master "wercker status")](https://app.wercker.com/project/byKey/9ba6925ec9ca9f47898b0fcc4a6bafe6)
+
+## Example
+https://twitter.com/sue445/status/809050464893411328
 
 ## Setup
 ```sh
