@@ -19,6 +19,11 @@ default: &default
             webhook_url: $SLACK_WEBHOOK_URL
             username: wercker_build
 
+before_script: &before_script
+    name: "before script"
+    code: |
+      export RUBYOPT=-EUTF-8
+
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
@@ -33,9 +38,7 @@ build-rspec:
 
     steps:
         - script:
-            name: setup variable
-            code: |
-              export RUBYOPT=-EUTF-8
+            <<: *before_script
 
         - bundle-install:
             jobs: 4
@@ -49,9 +52,7 @@ build-rubocop:
 
     steps:
         - script:
-            name: setup variable
-            code: |
-              export RUBYOPT=-EUTF-8
+            <<: *before_script
 
         - bundle-install:
             jobs: 4
