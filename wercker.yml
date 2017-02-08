@@ -39,7 +39,7 @@ build-rspec:
 
     steps:
         - script:
-            <<: *before_script
+                <<: *before_script
 
         - bundle-install:
             jobs: 4
@@ -53,7 +53,7 @@ build-rubocop:
 
     steps:
         - script:
-            <<: *before_script
+        <<: *before_script
 
         - bundle-install:
             jobs: 4
