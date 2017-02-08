@@ -22,6 +22,7 @@ default: &default
 before_script: &before_script
     name: "before script"
     code: |
+      echo "before_script"
       export RUBYOPT=-EUTF-8
 
 # This is the build pipeline. Pipelines are the core of wercker
