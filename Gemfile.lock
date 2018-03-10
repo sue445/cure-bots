@@ -24,7 +24,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    http-form_data (2.0.0)
+    http-form_data (2.1.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -33,11 +33,11 @@ GEM
     minitest (5.11.3)
     multipart-post (2.0.0)
     naught (1.1.0)
-    onkcop (0.52.1.1)
-      rubocop (~> 0.52.1)
-      rubocop-rspec (>= 1.22.0)
+    onkcop (0.53.0.0)
+      rubocop (~> 0.53.0)
+      rubocop-rspec (>= 1.24.0)
     parallel (1.12.1)
-    parser (2.5.0.2)
+    parser (2.5.0.3)
       ast (~> 2.4.0)
     powerpack (0.1.1)
     public_suffix (3.0.2)
@@ -56,19 +56,19 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
-    rubicure (1.0.7)
+    rubicure (1.1.1)
       activesupport (>= 5.0.0)
       hashie (>= 2.0.5)
       sengiri_yaml (>= 0.0.2)
-    rubocop (0.52.1)
+    rubocop (0.53.0)
       parallel (~> 1.10)
-      parser (>= 2.4.0.2, < 3.0)
+      parser (>= 2.5)
       powerpack (~> 0.1)
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
-    rubocop-rspec (1.23.0)
-      rubocop (>= 0.52.1)
+    rubocop-rspec (1.24.0)
+      rubocop (>= 0.53.0)
     ruby-progressbar (1.9.0)
     sengiri_yaml (0.0.3)
     simple_oauth (0.3.1)
@@ -105,5 +105,8 @@ DEPENDENCIES
   timecop
   twitter
 
+RUBY VERSION
+   ruby 2.5.0p0
+
 BUNDLED WITH
-   1.16.0
+   1.16.1
