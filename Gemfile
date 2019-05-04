@@ -10,6 +10,7 @@ gem "twitter"
 group :development do
   gem "dotenv"
   gem "onkcop", require: false
+  gem "rubocop-performance", require: false
 end
 
 group :test do
