@@ -7,3 +7,6 @@ inherit_gem:
 
 AllCops:
   TargetRubyVersion: 2.5
+
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
