@@ -26,7 +26,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.5)
     equalizer (0.0.11)
-    hashie (3.6.0)
+    hashie (4.0.0)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
