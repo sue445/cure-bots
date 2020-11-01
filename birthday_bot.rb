@@ -2,6 +2,7 @@ require_relative "./bot"
 
 class BirthdayBot < Bot
   def initialize
+    super
     Time.zone = "Tokyo"
   end
 
