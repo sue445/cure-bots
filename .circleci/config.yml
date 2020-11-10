@@ -50,7 +50,6 @@ workflows:
             - rubocop
           filters:
             branches:
-              # only: master
-              only: feature/circleci
+              only: master
           post-deploy:
             - slack/status
