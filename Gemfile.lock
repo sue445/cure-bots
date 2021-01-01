@@ -91,7 +91,7 @@ GEM
     rubocop-rspec (2.1.0)
       rubocop (~> 1.0)
       rubocop-ast (>= 1.1.0)
-    ruby-progressbar (1.10.1)
+    ruby-progressbar (1.11.0)
     sengiri_yaml (0.0.3)
     simple_oauth (0.3.1)
     thread_safe (0.3.6)
