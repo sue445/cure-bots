@@ -33,7 +33,7 @@ GEM
     http-parser (1.2.2)
       ffi-compiler
     http_parser.rb (0.6.0)
-    i18n (1.8.5)
+    i18n (1.8.6)
       concurrent-ruby (~> 1.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
