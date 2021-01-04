@@ -11,6 +11,3 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 3.0
   NewCops: enable
-
-Layout/IndentationConsistency:
-  EnforcedStyle: indented_internal_methods
