@@ -53,6 +53,7 @@ workflows:
     jobs:
       - rspec
       - rubocop
+      - bot_birthday
 
   daily_tweet:
     triggers:
