@@ -37,7 +37,7 @@ GEM
       concurrent-ruby (~> 1.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.14.3)
+    minitest (5.14.4)
     multipart-post (2.1.1)
     naught (1.1.0)
     onkcop (1.0.0.0)
