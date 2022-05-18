@@ -11,3 +11,6 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 3.0
   NewCops: enable
+
+Style/FetchEnvVar:
+  Enabled: false
