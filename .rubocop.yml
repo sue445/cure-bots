@@ -9,7 +9,7 @@ inherit_gem:
     - "config/performance.yml"
 
 AllCops:
-  TargetRubyVersion: 3.1
+  TargetRubyVersion: 3.2
   NewCops: enable
 
 Style/FetchEnvVar:
