@@ -15,7 +15,7 @@ class BirthdayBot < Bot
       puts "#{today} is not nobody's birthday"
     else
       birthday_girls.each do |girl|
-        post_tweet("今日は#{girl.precure_name}（Cv. #{girl.cast_name}）の誕生日です！ https://github.com/sue445/cure-bots")
+        post_tweet("今日は#{girl.precure_name}（Cv. #{girl.cast_name}）の誕生日です！")
       end
     end
   end

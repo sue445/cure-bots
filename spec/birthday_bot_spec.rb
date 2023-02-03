@@ -10,7 +10,7 @@ describe BirthdayBot do
       it "posts tweet" do
         allow(bot).to receive(:post_tweet)
         bot.perform
-        expect(bot).to have_received(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！ https://github.com/sue445/cure-bots")
+        expect(bot).to have_received(:post_tweet).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！")
       end
     end
 
