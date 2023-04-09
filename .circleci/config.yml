@@ -64,3 +64,11 @@ workflows:
                 - master
     jobs:
       - bot_birthday
+
+  manual_tweet:
+    jobs:
+      - hold:
+          type: approval
+      - bot_birthday:
+          requires:
+           - hold
